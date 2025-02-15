@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #c3d0d2, #c8d6d6);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: hsl(170, 28%, 87%);
+    color: #1d1616;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.bucket-list {
+    margin: 20px auto;
+    padding: 30px;
+    background:linear-gradient(to right, #c3d0d2, #760e38);
+    color: rgb(34, 24, 24);
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 120, 164, 0.735);
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bucket-list li {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0;
+    background: #d7e9e8;
+    border-left: 1px solid #479833;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.bucket-list li:hover {
+    background: linear-gradient(to right, #13af4c, #31dcdc);;
+    color: hsl(220, 47%, 96%);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 700px) {
+    .bucket-list {
+        width: 50%;
+        padding: 15px;
+    }
+
+.button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #ff9900;
+    transform: scale(1.1);
+}
